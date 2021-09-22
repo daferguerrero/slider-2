@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/cup.jpg">
+
+  <title>Slider # 1</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <input type="radio" id="i1" name="images" checked>
+    <input type="radio" id="i2" name="images">
+    <input type="radio" id="i3" name="images">
+
+    <div class="slide" id="img-1">
+      <img src="img/dog-1.jpg">
+      <label class="prev" for="i3"><span>&#x2039;</span></label>
+      <label class="next" for="i2"><span>&#x203a;</span></label>
+    </div>
+
+    <div class="slide" id="img-2">
+      <img src="img/dog-2.jpg">
+      <label class="prev" for="i1"><span>&#x2039;</span></label>
+      <label class="next" for="i3"><span>&#x203a;</span></label>
+    </div>
+
+    <div class="slide" id="img-3">
+      <img src="img/dog-3.jpg">
+      <label class="prev" for="i2"><span>&#x2039;</span></label>
+      <label class="next" for="i1"><span>&#x203a;</span></label>
+    </div>
+
+    <div id="nav">
+      <label for="i1" class="dots" id="dot-1"></label>
+      <label for="i2" class="dots" id="dot-2"></label>
+      <label for="i3" class="dots" id="dot-3"></label>
+    </div>
+  </div>
+
+</html>
